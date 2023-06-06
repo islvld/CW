@@ -8,7 +8,7 @@ ___
 [АРМ](https://github.com/islvld/CW/blob/main/ReportsARM/ARM.MD.md)
 
 -Отчет по задаче Комивояжера:
-[Граф](https://github.com/islvld/ARM/blob/main/ReportsTSP/Graph%20(1).MD.md)
+[Граф](https://github.com/islvld/CW/blob/main/ReportsTSP/TSP.MD.md)
 
 ___
 Видео отчет
