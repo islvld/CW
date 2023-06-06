@@ -6,7 +6,6 @@ Widget::Widget(QWidget *parent) :  QWidget(parent), ui(new Ui::Widget)
 {
  ui->setupUi(this);
  ui->lineEdit->setFocus();
-
  //Автозагрузка списка при запуске виджета
  QFile file("data.txt");
  if (file.open(QIODevice::ReadOnly)) {

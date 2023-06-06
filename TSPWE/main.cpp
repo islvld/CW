@@ -8,9 +8,9 @@
 #include <QtMath>
 #include <vector>
 #include <climits>
-#include <algorithm> // Добавляем заголовочный файл algorithm для использования функции std::next_permutation
+#include <algorithm>
 
-// Функция для решения задачи коммивояжера методом полного перебора
+// Функция для решения задачи коммивояжера методом ветвей и границ
 // Структура для представления состояния ветви
 struct BranchState {
     int currentVertex; // Текущая вершина

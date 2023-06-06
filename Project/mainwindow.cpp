@@ -16,6 +16,7 @@ MainWindow::MainWindow(QWidget *parent)
 {
     ui->setupUi(this);
     QFile file("D:/QuTo/Project/worktime/worktime.txt");
+    this->setWindowTitle("Батин Владислав.ТР ч.1");
     if (file.open(QIODevice::Append | QIODevice::Text)) {
         QTextStream out(&file);
         QDateTime currentDateTime = QDateTime::currentDateTime();
